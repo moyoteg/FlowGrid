@@ -5,12 +5,12 @@ import PackageDescription
 
 let package = Package(
   name: "FlowGrid",
-  platforms: [
-    .iOS(.v14),
-    .macOS(.v11),
-    .tvOS(.v14),
-    .watchOS(.v7),
-  ],
+    platforms: [
+        .iOS("15"),
+        .macOS("13.1"),
+        .tvOS("15"),
+        .watchOS(.v7),
+    ],
   products: [
     .library(
       name: "FlowGrid",
