@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@available(iOS 14, OSX 11.0, tvOS 14, watchOS 7, *)
 public struct FlowGrid<Data: Collection, Content: View>: View where Data.Element: Hashable {
   private let items: Data
   private let rowHeight: CGFloat
